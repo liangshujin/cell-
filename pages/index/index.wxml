@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <text>{{userImgSrc}}</text>
+    <button bindtap="getTextImg"> 获取百度图片 </button>
+  </view>
+  <view class="testImg">
+    <image src="{{userImgSrc}}"></image>
+  </view>
+</view>
